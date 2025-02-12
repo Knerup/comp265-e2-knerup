@@ -4,9 +4,9 @@ import { Link } from 'expo-router';
 export default function AboutScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>About screen</Text>
-            <Link href="/dragon" style={styles.button}>
-                Go to Dragon screen
+            <Text style={styles.text}>Creature Encyclopedia</Text>
+            <Link href="/Dragons" style={styles.button}>
+                Dragons
             </Link>
         </View>
     );
