@@ -4,10 +4,7 @@ import { Link } from 'expo-router';
 export default function AboutScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Creature Encyclopedia</Text>
-            <Link href="/Dragons" style={styles.button}>
-                Dragons
-            </Link>
+            <Text style={styles.text}>This is the Technology Screen</Text>
         </View>
     );
 }
@@ -20,11 +17,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        color: '#fff',
-    },
-    button: {
-        fontSize: 20,
-        textDecorationLine: 'underline',
         color: '#fff',
     },
 });
