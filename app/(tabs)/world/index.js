@@ -1,7 +1,12 @@
 import { Text, View, StyleSheet, ScrollView, Image } from 'react-native';
-import { Link } from 'expo-router';
+import { useLocalSearchParams, Link } from "expo-router";
+
 
 export default function Index() {
+
+    const { world } = useLocalSearchParams();
+
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.subContainer}>

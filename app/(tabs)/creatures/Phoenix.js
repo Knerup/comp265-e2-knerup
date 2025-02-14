@@ -1,7 +1,11 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { Link } from 'expo-router';
+import { useLocalSearchParams, Link } from "expo-router";
+
 
 export default function AboutScreen() {
+
+    const { world } = useLocalSearchParams();
+
     return (
         <View style={styles.container}>
             <Text style={styles.text}>This is the Phoenix Screen</Text>

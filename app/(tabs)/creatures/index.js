@@ -1,7 +1,10 @@
 import { Text, View, StyleSheet, Image, ScrollView } from 'react-native';
-import { Link } from 'expo-router';
+import { Link, useLocalSearchParams } from 'expo-router';
 
 export default function AboutScreen() {
+
+    const { world } = useLocalSearchParams();
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.subContainer}>
