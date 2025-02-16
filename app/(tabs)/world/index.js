@@ -35,7 +35,7 @@ export default function Index() {
                     Learn More About Solmara's Geography
                 </Link>
 
-                <Link href="world/Technology" style={styles.button}>
+                <Link href="world/Technology?world=Solmara" style={styles.button}>
                     Learn More About Solmara's Technology
                 </Link>
             </View>
